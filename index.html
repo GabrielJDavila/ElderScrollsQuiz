@@ -9,28 +9,23 @@
   </head>
   <body>
     <h1>Elder Scrolls Quiz</h1>
-    <div id="quest-box" class="question-container">
-      <span class="question-num">Question 1:</span>
-      <h2 id="question-title1" class="question-title">What is the name of the world?</h2>
-      <div class="answer-container">
-        <button class="answer-btn answer-btn1" value="correct">Mundus</button>
-        <button class="answer-btn answer-btn1">Earth</button>
-        <button class="answer-btn answer-btn1">Arda</button>
-        <button class="answer-btn answer-btn1">Mercury</button>
-      </div>
-      <button id ="next-btn1" class="nxt-btn hide">Next Question</button>
-    </div>
+    <div class="overall-container">
+      <button id="start-btn">Start Quiz</button>
 
-    <div id="quest-box2" class="question-container hide">
-      <span class="question-num">Question 2:</span>
-      <h1 class="question-title">Question2</h1>
-      <div class="answer-container">
-        <button class="answer-btn answer-btn2">answer 1</button>
-        <button class="answer-btn answer-btn2">answer 2</button>
-        <button class="answer-btn answer-btn2">answer 3</button>
-        <button class="answer-btn answer-btn2">answer 4</button>
+      <div id="quest-box1" class="question-container hide">
+        <span id="quest-number" class="question-num">question num</span>
+        <h2 id="question-title1" class="question-title">question</h2>
+        <p id="correct"></p>
+        <p id="incorrect"></p>
+        <div id="answer-container1" class="answer-container">
+        </div>
+        <div id="answer-container2" class="answer-container">
+        </div>
       </div>
-      <button class="nxt-btn">Next Question</button>
+      <button id="nxt-btn1" class="hide">Next Question</button>
+      <button id="nxt-btn2" class="hide">Next Question</button>
+      <button id="nxt-btn3" class="hide">Next Question</button>
+      <button id="nxt-btn4" class="hide">Next Question</button>
     </div>
 	  <script src="quizapp.js"></script>
   </body>

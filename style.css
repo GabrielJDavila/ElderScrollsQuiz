@@ -30,6 +30,19 @@ body {
   margin-top: 1.5em;
 }
 
+#correct {
+  color: green;
+}
+
+#incorrect {
+  color: red;
+}
+
+.nxt-btn {
+  text-align: center;
+  margin: 0 auto;
+}
+
 .hide {
   display: none;
 }
