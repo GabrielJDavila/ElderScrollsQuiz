@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Elder Scrolls Quiz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <h1>Elder Scrolls Quiz</h1>
     <div class="overall-container">
       <button id="start-btn">Start Quiz</button>
-
+      <!-- start of container that holds questions and answers -->
       <div id="quest-box1" class="question-container hide">
         <span id="quest-number" class="question-num">question num</span>
         <h2 id="question-title1" class="question-title">question</h2>
@@ -21,11 +24,23 @@
         </div>
         <div id="answer-container2" class="answer-container">
         </div>
+        <div id="answer-container3" class="answer-container">
+        </div>
+        <div id="answer-container4" class="answer-container">
+        </div>
+        <div id="answer-container5" class="answer-container">
+        </div>
       </div>
+      <!-- end of container that holds questions and answers -->
+
+      <!-- buttons that start game, get next question, finish game, and restart -->
       <button id="nxt-btn1" class="hide">Next Question</button>
       <button id="nxt-btn2" class="hide">Next Question</button>
       <button id="nxt-btn3" class="hide">Next Question</button>
       <button id="nxt-btn4" class="hide">Next Question</button>
+      <button id="finish-btn" class="hide">Finish Quiz</button>
+      <button id="start-over" class="hide">Restart Quiz</button>
+      <!-- end of buttons -->
     </div>
 	  <script src="quizapp.js"></script>
   </body>

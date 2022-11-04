@@ -1,13 +1,24 @@
+/* base styles */
 * {
   box-sizing: border-box;
 }
 
 body {
   background-color: dodgerblue;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  margin-bottom: 0;
 }
 
 .question-container,
-.answer-container {
+.answer-container1,
+.answer-container2,
+.answer-container3,
+.answer-container4,
+.answer-container5 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,7 +26,7 @@ body {
 }
 
 .question-container {
-  margin: 3em;
+  margin: .5em 3em;
   padding: 2em;
   background-color: white;
   border-radius: 6px;
@@ -27,7 +38,13 @@ body {
 
 .answer-btn {
   padding: 3px;
-  margin-top: 1.5em;
+  margin: 1.5em auto 0 auto;
+  width: 50%;
+}
+
+button:hover {
+  transform: scale(1.25);
+  transition: all 0.3s ease;
 }
 
 #correct {
